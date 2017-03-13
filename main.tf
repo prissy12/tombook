@@ -78,7 +78,7 @@ create_before_destroy = true
 tags {
 Name = "terraform-example"
 }
-
 output "elb_dns_name" {
 value = "$[aws_elb.example.dns_name}"
+}
 }
